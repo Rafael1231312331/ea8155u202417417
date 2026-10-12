@@ -1,81 +1,40 @@
-
 {
-
- "toolbar": {
-
-  "tagline": "Gestión de Rescate Paws & Claws"
-
- },
-
- "sidebar": {
-
-  "home": "Inicio",
-
-  "newAnimalIntake": "Nuevo Ingreso Animal",
-
-  "navigation": "Navegación"
-
- },
-
- "home": {
-
-  "title": "Inicio",
-
-  "subtitle": "Dando a cada mascota una segunda oportunidad para ser feliz.",
-
-  "myShelterIntakes": "Ingresos de mi Refugio",
-
-  "noAnimals": "Sin Animales",
-
-  "totalAnimals": "Total de Animales",
-
-  "availableCapacity": "Capacidad Disponible",
-
-  "breed": "Raza"
-
- },
-
- "newAnimalIntake": {
-
-  "title": "Nuevo Ingreso Animal",
-
-  "subtitle": "Agregue Mascotas Rescatadas a su Sede de Refugio",
-
-  "shelterLocation": "Sede del Refugio",
-
-  "selectLocation": "Seleccione sede del refugio",
-
-  "dogBreed": "Raza de Perro",
-
-  "selectBreed": "Seleccione raza de perro",
-
-  "petName": "Nombre de la Mascota",
-
-  "enterPetName": "Ingrese nombre de la mascota",
-
-  "imagePreview": "Vista Previa de la Raza",
-
-  "createButton": "Crear",
-
-  "cancelButton": "Cancelar",
-
-  "capacityError": "No se puede registrar el animal: la sede ha alcanzado su capacidad máxima.",
-
-  "validationError": "Por favor complete todos los campos obligatorios.",
-
-  "successMessage": "Mascota rescatada registrada exitosamente en el refugio."
-
- },
-
- "notFound": {
-
-  "title": "Página No Encontrada",
-
-  "message": "La ruta solicitada \"{path}\" no fue encontrada.",
-
-  "backHome": "Regresar a Inicio"
-
- }
-
+  "toolbar": {
+    "tagline": "Gestión de Rescate Paws & Claws"
+  },
+  "sidebar": {
+    "home": "Inicio",
+    "newAnimalIntake": "Nuevo Ingreso Animal",
+    "navigation": "Navegación"
+  },
+  "home": {
+    "title": "Inicio",
+    "subtitle": "Dando a cada mascota una segunda oportunidad para ser feliz.",
+    "myShelterIntakes": "Ingresos de mi Refugio",
+    "noAnimals": "Sin Animales",
+    "totalAnimals": "Total de Animales",
+    "availableCapacity": "Capacidad Disponible",
+    "breed": "Raza"
+  },
+  "newAnimalIntake": {
+    "title": "Nuevo Ingreso Animal",
+    "subtitle": "Agregue Mascotas Rescatadas a su Sede de Refugio",
+    "shelterLocation": "Sede del Refugio",
+    "selectLocation": "Seleccione sede del refugio",
+    "dogBreed": "Raza de Perro",
+    "selectBreed": "Seleccione raza de perro",
+    "petName": "Nombre de la Mascota",
+    "enterPetName": "Ingrese nombre de la mascota",
+    "imagePreview": "Vista Previa de la Raza",
+    "createButton": "Crear",
+    "cancelButton": "Cancelar",
+    "capacityError": "No se puede registrar el animal: la sede ha alcanzado su capacidad máxima.",
+    "validationError": "Por favor complete todos los campos obligatorios.",
+    "successMessage": "Mascota rescatada registrada exitosamente en el refugio."
+  },
+  "notFound": {
+    "title": "Página No Encontrada",
+    "message": "La ruta solicitada \"{path}\" no fue encontrada.",
+    "backHome": "Regresar a Inicio"
+  }
 }
-
