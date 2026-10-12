@@ -1,0 +1,217 @@
+
+{
+
+ "shelter-locations": [
+
+  {
+
+   "id": 1,
+
+   "name": "Paws & Claws Surco Main Shelter",
+
+   "dogBreeds": "labrador, golden, poodle, beagle",
+
+   "maxCapacity": 25
+
+  },
+
+  {
+
+   "id": 2,
+
+   "name": "Paws & Claws San Borja Rescue Center",
+
+   "dogBreeds": "boxer, rottweiler, doberman, husky",
+
+   "maxCapacity": 20
+
+  },
+
+  {
+
+   "id": 3,
+
+   "name": "Paws & Claws Miraflores Adoption Hub",
+
+   "dogBreeds": "chihuahua, maltese, pomeranian, pug",
+
+   "maxCapacity": 15
+
+  }
+
+ ],
+
+ "shelter-animals": [
+
+  {
+
+   "id": 1,
+
+   "locationId": 1,
+
+   "dogBreed": "labrador",
+
+   "petName": "Max",
+
+   "registeredAt": "2026-09-28T09:30:15Z"
+
+  },
+
+  {
+
+   "id": 2,
+
+   "locationId": 1,
+
+   "dogBreed": "poodle",
+
+   "petName": "Coco",
+
+   "registeredAt": "2026-09-30T14:15:40Z"
+
+  },
+
+  {
+
+   "id": 3,
+
+   "locationId": 1,
+
+   "dogBreed": "golden",
+
+   "petName": "Bailey",
+
+   "registeredAt": "2026-10-02T08:45:10Z"
+
+  },
+
+  {
+
+   "id": 4,
+
+   "locationId": 1,
+
+   "dogBreed": "beagle",
+
+   "petName": "Charlie",
+
+   "registeredAt": "2026-10-05T16:20:50Z"
+
+  },
+
+  {
+
+   "id": 5,
+
+   "locationId": 1,
+
+   "dogBreed": "labrador",
+
+   "petName": "Bruno",
+
+   "registeredAt": "2026-10-08T11:05:25Z"
+
+  },
+
+  {
+
+   "id": 6,
+
+   "locationId": 2,
+
+   "dogBreed": "boxer",
+
+   "petName": "Rocky",
+
+   "registeredAt": "2026-09-29T11:00:00Z"
+
+  },
+
+  {
+
+   "id": 7,
+
+   "locationId": 2,
+
+   "dogBreed": "husky",
+
+   "petName": "Luna",
+
+   "registeredAt": "2026-10-03T13:30:20Z"
+
+  },
+
+  {
+
+   "id": 8,
+
+   "locationId": 2,
+
+   "dogBreed": "rottweiler",
+
+   "petName": "Zeus",
+
+   "registeredAt": "2026-10-07T09:10:45Z"
+
+  },
+
+  {
+
+   "id": 9,
+
+   "locationId": 2,
+
+   "dogBreed": "doberman",
+
+   "petName": "Thor",
+
+   "registeredAt": "2026-10-10T17:40:10Z"
+
+  },
+
+  {
+
+   "id": 10,
+
+   "locationId": 3,
+
+   "dogBreed": "chihuahua",
+
+   "petName": "Tito",
+
+   "registeredAt": "2026-10-04T10:00:30Z"
+
+  },
+
+  {
+
+   "id": 11,
+
+   "locationId": 3,
+
+   "dogBreed": "pomeranian",
+
+   "petName": "Bella",
+
+   "registeredAt": "2026-10-09T15:25:00Z"
+
+  },
+
+  {
+
+   "id": 12,
+
+   "locationId": 3,
+
+   "dogBreed": "pug",
+
+   "petName": "Lola",
+
+   "registeredAt": "2026-10-11T12:50:15Z"
+
+  }
+
+ ]
+
+}
+
