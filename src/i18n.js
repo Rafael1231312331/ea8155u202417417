@@ -1,6 +1,5 @@
 /**
  * Internationalization Configuration
- * @summary Configures Vue I18n with English and Spanish locales
  * @author Rafael André Barrenechea Bustamante
  */
 import { createI18n } from 'vue-i18n';

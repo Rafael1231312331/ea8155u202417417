@@ -1,6 +1,5 @@
 /**
  * Application Routing
- * @summary Defines semantic routes with lazy-loading and child routes for bounded context
  * @author Rafael André Barrenechea Bustamante
  */
 import { createRouter, createWebHistory } from 'vue-router';

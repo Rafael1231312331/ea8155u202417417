@@ -1,6 +1,5 @@
 /**
  * Breeds Infrastructure Service
- * @summary Consumes external Dog CEO API for breed lists and random images
  * @author Rafael André Barrenechea Bustamante
  */
 import axios from 'axios';
@@ -11,10 +10,7 @@ const dogCeoClient = axios.create({
 });
 
 export class BreedsService {
-  /**
-   * Fetches all breeds from Dog CEO API
-   * @returns {Promise<import('../../domain/model/dog-breed.entity').DogBreed[]>}
-   */
+
   static async getAllBreeds() {
     try {
       const response = await dogCeoClient.get('/breeds/list/all');
@@ -24,12 +20,7 @@ export class BreedsService {
       throw error;
     }
   }
-
-  /**
-   * Fetches a random image URL for a specified breed
-   * @param {string} breedName
-   * @returns {Promise<string>}
-   */
+  
   static async getRandomImageByBreed(breedName) {
     try {
       const formatted = String(breedName).trim().toLowerCase();

@@ -1,6 +1,6 @@
 /**
  * Animals Pinia Store
- * @summary Centralized state management for shelter locations, animal intakes, and capacity metrics
+ * @summary Centralized state management for shelter locations.
  * @author Rafael André Barrenechea Bustamante
  */
 import { defineStore } from 'pinia';
@@ -15,10 +15,7 @@ export const useAnimalsStore = defineStore('animals', {
   }),
 
   getters: {
-    /**
-     * Calculates summary metrics for each shelter location
-     * @returns {Array<Object>}
-     */
+
     locationSummaries(state) {
       return state.locations.map(location => {
         const locationAnimals = state.animals.filter(a => a.locationId === location.id);
@@ -41,10 +38,7 @@ export const useAnimalsStore = defineStore('animals', {
       });
     },
 
-    /**
-     * Computes available capacity for a specific location
-     * @returns {Function}
-     */
+
     getAvailableCapacity(state) {
       return (locationId) => {
         const loc = state.locations.find(l => l.id === locationId);
@@ -56,9 +50,7 @@ export const useAnimalsStore = defineStore('animals', {
   },
 
   actions: {
-    /**
-     * Loads shelter locations and animals concurrently
-     */
+
     async loadAll() {
       this.loading = true;
       this.error = null;
@@ -77,10 +69,7 @@ export const useAnimalsStore = defineStore('animals', {
       }
     },
 
-    /**
-     * Persists a new shelter animal intake and updates store state
-     * @param {Object} animalData
-     */
+
     async addAnimal(animalData) {
       const created = await AnimalsService.createShelterAnimal(animalData);
       this.animals.push(created);

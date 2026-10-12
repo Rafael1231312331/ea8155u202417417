@@ -1,6 +1,5 @@
 /**
  * Application Entry Point
- * @summary Configures Vue, Pinia, Vue Router, Vue I18n, and PrimeVue with Aura preset
  * @author Rafael André Barrenechea Bustamante
  */
 import { createApp } from 'vue';
@@ -9,16 +8,13 @@ import App from './App.vue';
 import router from './router';
 import i18n from './i18n';
 
-// PrimeVue Core & Aura Theme
 import PrimeVue from 'primevue/config';
 import Aura from '@primevue/themes/aura';
 import ToastService from 'primevue/toastservice';
 
-// Icons & PrimeFlex Utilities
 import 'primeicons/primeicons.css';
 import 'primeflex/primeflex.css';
 
-// PrimeVue Components (prefix pv-)
 import Toolbar from 'primevue/toolbar';
 import Card from 'primevue/card';
 import Button from 'primevue/button';

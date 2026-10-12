@@ -1,6 +1,5 @@
 /**
  * Centralized HTTP Client
- * @summary Axios instance configured with local json-server base URL
  * @author Rafael André Barrenechea Bustamante
  */
 import axios from 'axios';
