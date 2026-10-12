@@ -1,0 +1,81 @@
+
+{
+
+ "toolbar": {
+
+  "tagline": "Paws & Claws Rescue Management"
+
+ },
+
+ "sidebar": {
+
+  "home": "Home",
+
+  "newAnimalIntake": "New Animal Intake",
+
+  "navigation": "Navigation"
+
+ },
+
+ "home": {
+
+  "title": "Home",
+
+  "subtitle": "Giving Every Pet a Second Chance at Happiness.",
+
+  "myShelterIntakes": "My Shelter Intakes",
+
+  "noAnimals": "No Animals",
+
+  "totalAnimals": "Total Animals",
+
+  "availableCapacity": "Available Capacity",
+
+  "breed": "Breed"
+
+ },
+
+ "newAnimalIntake": {
+
+  "title": "New Animal Intake",
+
+  "subtitle": "Add Rescued Pets to Your Shelter Location",
+
+  "shelterLocation": "Shelter Location",
+
+  "selectLocation": "Select shelter location",
+
+  "dogBreed": "Dog Breed",
+
+  "selectBreed": "Select dog breed",
+
+  "petName": "Pet Name",
+
+  "enterPetName": "Enter pet name",
+
+  "imagePreview": "Breed Image Preview",
+
+  "createButton": "Create",
+
+  "cancelButton": "Cancel",
+
+  "capacityError": "Cannot register animal: shelter location has reached maximum capacity.",
+
+  "validationError": "Please complete all mandatory fields.",
+
+  "successMessage": "Rescued pet successfully registered in shelter."
+
+ },
+
+ "notFound": {
+
+  "title": "Page Not Found",
+
+  "message": "The requested path \"{path}\" was not found.",
+
+  "backHome": "Return to Home"
+
+ }
+
+}
+
